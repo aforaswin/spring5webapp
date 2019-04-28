@@ -4,7 +4,9 @@ import guru.springframework.spring5webapp.model.Author;
 import org.springframework.data.repository.CrudRepository;
 
 /**
- * Created by jt on 5/16/17.
+ *
+ * Author Repository
+ *
  */
 public interface AuthorRepository extends CrudRepository<Author, Long> {
 }
